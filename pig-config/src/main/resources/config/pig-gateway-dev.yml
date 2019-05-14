@@ -6,7 +6,7 @@ spring:
       routes:
         # 认证中心
         - id: pig-auth
-          uri: lb://pig-auth
+          uri: lb://pig-auth  # lb 代表从注册中心获取服务
           predicates:
             - Path=/auth/**
           filters:
