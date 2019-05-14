@@ -16,3 +16,5 @@ zipkin:
     type: mysql
 sleuth:
   enabled: true
+
+
